@@ -1,0 +1,17 @@
+
+---
+
+## 📄 reflection.md
+
+```markdown
+# Mission 2 Reflection
+
+The cloud infrastructure component I consider most important is compute because it provides the processing power required to run applications and services. Without sufficient compute resources, applications would not be able to process requests or perform their required tasks. However, compute also depends on storage and networking to operate effectively.
+
+Linux supports cloud computing by providing a stable and flexible operating system environment for running applications and services. Linux also provides powerful command-line tools that allow cloud engineers to inspect system resources, manage files, monitor processes, and troubleshoot problems. The KillerCoda activity demonstrated how Linux commands such as `lscpu`, `free -h`, and `df -h` can be used to investigate a cloud server.
+
+Technical documentation is important before deploying infrastructure because it records the resources, configurations, and decisions involved in a system. Good documentation allows engineers to understand the environment and makes troubleshooting and future maintenance easier. It also helps teams communicate technical information clearly.
+
+During this laboratory activity, I learned how to inspect a Linux environment using commands such as `lscpu`, `free -h`, `df -h`, and `hostname -I`. I also learned how compute, storage, networking, and operating systems work together in cloud infrastructure. In addition, I practiced comparing equivalent services from AWS, Microsoft Azure, and Google Cloud.
+
+My GitHub portfolio improved because I added a complete cloud infrastructure laboratory with technical reports, cloud service comparisons, screenshots, and an architecture diagram. This makes the portfolio more organized and demonstrates practical cloud computing and documentation skills.

@@ -1,0 +1,63 @@
+# Cloud Infrastructure Components
+
+## 1. Compute Resources
+
+### Purpose
+
+Compute resources provide the processing power needed to run applications, services, and workloads.
+
+### Importance in Cloud Computing
+
+Compute resources are important because cloud applications need processing capacity to execute programs and handle user requests.
+
+### Linux Environment
+
+In the KillerCoda environment, the CPU and CPU cores represent the available compute resources.
+
+---
+
+## 2. Storage Resources
+
+### Purpose
+
+Storage resources provide space for storing the operating system, applications, files, and other data.
+
+### Importance in Cloud Computing
+
+Storage is important because applications and users need a reliable place to store and retrieve data.
+
+### Linux Environment
+
+In the KillerCoda environment, the disk and mounted file systems represent available storage resources.
+
+---
+
+## 3. Networking Resources
+
+### Purpose
+
+Networking resources allow systems and users to communicate with each other.
+
+### Importance in Cloud Computing
+
+Networking allows cloud servers to communicate with users, applications, databases, and other cloud services.
+
+### Linux Environment
+
+In the KillerCoda environment, the IP address and network interfaces provide networking functionality.
+
+---
+
+## 4. Operating System
+
+### Purpose
+
+The operating system manages the computer's hardware and provides an environment where applications and services can run.
+
+### Importance in Cloud Computing
+
+The operating system provides the foundation for running applications and managing cloud computing resources.
+
+### Linux Environment
+
+The KillerCoda server uses a Linux operating system that manages the CPU, memory, storage, networking, and running processes.

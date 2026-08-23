@@ -1,0 +1,48 @@
+# Cloud Infrastructure Assessment Report
+
+## Operating System
+
+The Linux server is running Ubuntu 24.04.4 LTS (Noble Numbat).
+
+## Kernel Version
+
+The server is using Linux kernel version 6.8.0-138-generic.
+
+## CPU Model
+
+The CPU model is Intel Xeon E312xx (Sandy Bridge, IBRS update) running at approximately 2.0GHz.
+
+## CPU Cores
+
+The Linux server has 1 CPU core available.
+
+## Total RAM
+
+The server has approximately 1.9 GiB of total RAM, with 1.5 GiB available for use.
+
+## Disk Capacity
+
+The server has a total disk capacity of approximately 19 GB on the main partition (`/dev/vda1`), with 13 GB available for use. Additional partitions include:
+- `/dev/vda16` (881M) mounted on `/boot`
+- `/dev/vda15` (105M) mounted on `/boot/efi`
+
+## Mounted File Systems
+
+The Linux environment contains several mounted file systems used by the operating system and its applications. The main file system is mounted at `/` using the ext4 filesystem type. Other mounted file systems include:
+- `/dev/vda1` on `/` (ext4)
+- `/dev/vda16` on `/boot` (ext4)
+- `/dev/vda15` on `/boot/efi`
+- `tmpfs` on `/run`, `/dev/shm`, and `/run/lock`
+- `sysfs` on `/sys`
+- `proc` on `/proc`
+- `devtmpfs` on `/dev`
+
+## Hostname
+
+The hostname of the Linux server is `ubuntu`.
+
+## IP Address
+
+The Linux server has the following IP addresses assigned to its network interfaces:
+- `172.30.1.2` (main network interface)
+- `172.17.0.1` (Docker bridge network interface)
