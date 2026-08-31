@@ -1,0 +1,21 @@
+# Mission 3 Reflection
+
+## Which cloud platform impressed you the most?
+
+Google Cloud Platform impressed me the most with its strong focus on artificial intelligence, machine learning, and Kubernetes. Google's innovative approach to cloud computing and its development of Kubernetes as an open-source project demonstrates its commitment to advancing cloud technology.
+
+## What similarities exist among AWS, Azure, and GCP?
+
+All three platforms offer similar core services including virtual machines, object storage, networking, and identity management. They all provide global infrastructure, pay-as-you-go pricing, and management consoles for resource administration. Each platform also offers comprehensive security features and compliance certifications.
+
+## How do business requirements influence cloud platform selection?
+
+Business requirements are the primary driver for cloud platform selection because different organizations have different technical needs, budgets, and existing infrastructure. A company using Microsoft products would benefit from Azure's integration, while an AI-focused company would prefer GCP's strengths in machine learning. The decision should always be based on solving specific business problems.
+
+## What did you learn from acting as a Cloud Solutions Consultant?
+
+Acting as a Cloud Solutions Consultant taught me to think beyond technical features and consider business requirements. I learned that the best cloud platform depends on the specific needs of each client, including their budget, existing technology stack, growth plans, and industry requirements.
+
+## How has your GitHub Cloud Computing Portfolio improved?
+
+My GitHub portfolio has expanded with a complete multi-cloud analysis including detailed research on all three major cloud providers. I now have professional documentation demonstrating my ability to compare cloud platforms, analyze business requirements, and make technical recommendations. The addition of screenshots and organized documentation makes the portfolio more comprehensive and professional.

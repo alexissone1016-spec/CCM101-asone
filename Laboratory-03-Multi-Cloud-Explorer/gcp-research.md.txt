@@ -1,0 +1,48 @@
+# Google Cloud Platform (GCP) Research
+
+## Brief Overview
+
+Google Cloud Platform (GCP) is a cloud computing platform launched in 2008. It offers services for compute, storage, networking, big data, and machine learning. GCP is built on Google's infrastructure and is known for its strengths in analytics, AI, and Kubernetes.
+
+## Global Infrastructure
+
+GCP has 40 regions and 121 zones worldwide. It also has over 200 edge locations for content delivery. Google's global network is designed for high performance and low latency.
+
+## Cloud Management Console
+
+Google Cloud Console is a web-based interface for managing GCP resources. It provides access to all services, monitoring, billing, and project management features.
+
+## Core Services
+
+| Service Category | GCP Service |
+|---|---|
+| Compute | Compute Engine |
+| Storage | Cloud Storage |
+| Networking | Virtual Private Cloud (VPC) |
+| Database | Cloud SQL |
+
+### 1. Compute Engine (Compute)
+Provides virtual machines with high performance and scalability.
+
+### 2. Cloud Storage (Storage)
+Object storage service with strong consistency and global availability.
+
+### 3. Virtual Private Cloud (Networking)
+Allows users to create isolated networks and manage connectivity.
+
+### 4. Cloud SQL (Database)
+Managed database service for MySQL, PostgreSQL, and SQL Server.
+
+## Advantages
+
+1. **AI and ML Leadership**: Strong capabilities in artificial intelligence and machine learning
+2. **Kubernetes**: Google developed Kubernetes and offers strong container orchestration
+3. **Big Data**: Excellent tools for big data analytics and processing
+
+## Enterprise Use Cases
+
+- Data analytics and processing
+- Machine learning and AI applications
+- Containerized applications using Kubernetes
+- High-performance computing
+- Global application deployment

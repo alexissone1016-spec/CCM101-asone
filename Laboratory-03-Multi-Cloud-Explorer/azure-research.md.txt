@@ -1,0 +1,48 @@
+# Microsoft Azure Research
+
+## Brief Overview
+
+Microsoft Azure is a cloud computing platform launched in 2010. It offers services for compute, storage, networking, analytics, and artificial intelligence. Azure is known for its strong integration with Microsoft products and hybrid cloud capabilities.
+
+## Global Infrastructure
+
+Azure has 60+ regions worldwide, making it one of the largest cloud infrastructures globally. It offers Availability Zones in most regions for high availability and disaster recovery.
+
+## Cloud Management Console
+
+Azure Portal is a web-based management console that provides a unified interface for managing all Azure resources. It offers customizable dashboards, monitoring tools, and access to Azure services.
+
+## Core Services
+
+| Service Category | Azure Service |
+|---|---|
+| Compute | Azure Virtual Machines |
+| Storage | Azure Blob Storage |
+| Networking | Azure Virtual Network |
+| Database | Azure SQL Database |
+
+### 1. Azure Virtual Machines (Compute)
+Provides on-demand virtual servers for running applications in the cloud.
+
+### 2. Azure Blob Storage (Storage)
+Object storage service for storing unstructured data such as files and backups.
+
+### 3. Azure Virtual Network (Networking)
+Allows users to create isolated networks and connect to on-premises infrastructure.
+
+### 4. Azure SQL Database (Database)
+Managed database service for SQL Server workloads.
+
+## Advantages
+
+1. **Microsoft Integration**: Seamless integration with Windows, Office 365, and Active Directory
+2. **Hybrid Capabilities**: Strong hybrid cloud support for on-premises and cloud environments
+3. **Enterprise Focus**: Designed for enterprise organizations with Microsoft infrastructure
+
+## Enterprise Use Cases
+
+- Microsoft workload migration (Windows Server, SQL Server)
+- Enterprise application hosting
+- Hybrid cloud deployments
+- AI and machine learning solutions
+- Internet of Things (IoT) applications

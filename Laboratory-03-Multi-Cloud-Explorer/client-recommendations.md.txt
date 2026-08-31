@@ -1,0 +1,67 @@
+# Cloud Platform Recommendation Challenge
+
+## Client A – Startup Company
+
+**Recommended Platform:** Amazon Web Services (AWS)
+
+**Justification:** AWS offers a pay-as-you-go pricing model that allows startups to start with minimal costs. With services like AWS Free Tier, startups can experiment and scale as they grow. AWS also provides a wide range of services to support rapid growth, including auto-scaling, load balancing, and CDN services.
+
+**Recommended Services:**
+- Amazon EC2 (for hosting the mobile app backend)
+- Amazon S3 (for storing user data and files)
+- AWS RDS (for database management)
+
+---
+
+## Client B – University
+
+**Recommended Platform:** Microsoft Azure
+
+**Justification:** The university already uses Windows Server, Microsoft 365, and Active Directory, making Azure the most natural choice. Azure offers seamless integration with existing Microsoft infrastructure and provides hybrid cloud capabilities for migrating on-premises services.
+
+**Recommended Services:**
+- Azure Virtual Machines (for migrating Windows Servers)
+- Azure SQL Database (for university databases)
+- Azure Active Directory (for identity management)
+- Azure Backup (for data protection)
+
+---
+
+## Client C – AI Research Company
+
+**Recommended Platform:** Google Cloud Platform (GCP)
+
+**Justification:** GCP excels in AI and machine learning with tools like TensorFlow, Vertex AI, and AI Platform. The research company can leverage GCP's high-performance computing and pre-trained AI models for their research work. GCP also offers excellent support for Kubernetes, which is useful for AI application deployment.
+
+**Recommended Services:**
+- Compute Engine with GPUs (for high-performance computing)
+- Vertex AI (for ML model development)
+- Cloud Storage (for storing research data)
+- Google Kubernetes Engine (for containerized applications)
+
+---
+
+## Client D – Global E-Commerce Company
+
+**Recommended Platform:** Amazon Web Services (AWS)
+
+**Justification:** AWS provides the most mature and globally distributed infrastructure, which is essential for serving customers worldwide. Services like Auto Scaling, Elastic Load Balancing, and Global Accelerator allow the company to maintain high availability and automatically handle traffic spikes.
+
+**Recommended Services:**
+- Amazon EC2 with Auto Scaling (for dynamic capacity)
+- Amazon CloudFront (for content delivery)
+- Amazon DynamoDB (for high-performance database)
+- Amazon VPC (for secure networking)
+
+---
+
+## Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | Low initial costs, flexible pricing, wide service range |
+| Enterprise Organization | AWS | Most mature platform, comprehensive services |
+| Microsoft Environment | Azure | Seamless Microsoft integration, hybrid cloud support |
+| AI / Machine Learning | GCP | Best AI/ML tools, TensorFlow, Vertex AI |
+| Kubernetes Deployment | GCP | Google developed Kubernetes, best orchestration |
+| Global Web Application | AWS | Extensive global infrastructure, CDN, scalability |

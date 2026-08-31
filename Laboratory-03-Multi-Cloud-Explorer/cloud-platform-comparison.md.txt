@@ -1,0 +1,41 @@
+# Cloud Platform Comparison
+
+## Platform Overview
+
+| Category | AWS | Microsoft Azure | Google Cloud Platform |
+|---|---|---|---|
+| Launch Year | 2006 | 2010 | 2008 |
+| Compute Service | Amazon EC2 | Azure Virtual Machines | Compute Engine |
+| Storage Service | Amazon S3 | Azure Blob Storage | Cloud Storage |
+| Networking Service | Amazon VPC | Azure Virtual Network | Virtual Private Cloud (VPC) |
+| Identity Service | AWS IAM | Microsoft Entra ID / Azure RBAC | Cloud IAM |
+| Primary Strength | Market leader, widest service range | Microsoft integration, hybrid cloud | AI/ML, Kubernetes, big data |
+| Ideal Organizations | All types, especially global enterprises | Organizations using Microsoft products | Data-intensive and AI-focused companies |
+
+## Service Matching Table
+
+| Service Category | AWS | Azure | GCP |
+|---|---|---|---|
+| Virtual Machine | Amazon EC2 | Azure Virtual Machines | Compute Engine |
+| Object Storage | Amazon S3 | Azure Blob Storage | Cloud Storage |
+| Identity Management | AWS IAM | Microsoft Entra ID | Cloud IAM |
+| SQL Database | Amazon RDS | Azure SQL Database | Cloud SQL |
+| Kubernetes | Amazon EKS | Azure Kubernetes Service | Google Kubernetes Engine |
+
+## Guide Questions
+
+### 1. Which cloud provider offers the broadest range of services?
+
+AWS offers the broadest range of services with over 200+ services covering computing, storage, databases, analytics, machine learning, IoT, and many other categories. Its maturity and market leadership position have allowed it to develop solutions for almost every possible use case.
+
+### 2. Which provider best integrates with Microsoft technologies?
+
+Microsoft Azure provides the best integration with Microsoft technologies including Windows Server, Microsoft 365, Active Directory, and SQL Server. Azure is designed to work seamlessly with on-premises Microsoft environments, making it the preferred choice for organizations with existing Microsoft investments.
+
+### 3. Which provider is strongest in Artificial Intelligence and Kubernetes?
+
+Google Cloud Platform is recognized as the strongest in Artificial Intelligence and Kubernetes. Google developed Kubernetes and offers advanced AI/ML tools like TensorFlow and Vertex AI. GCP also provides the best integration with open-source ML frameworks and tools.
+
+### 4. Which cloud platform would you personally choose and why?
+
+I would choose AWS due to its comprehensive service portfolio and mature ecosystem. AWS has the most established community, extensive documentation, and wide adoption, making it easier to find solutions and support. Its global infrastructure also provides excellent coverage for international deployments.
