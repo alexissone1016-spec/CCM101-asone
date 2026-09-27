@@ -1,0 +1,11 @@
+# Types of Cloud Storage
+
+| Storage Type | Description | Primary Use Case | Cloud Provider Example |
+|--------------|-------------|------------------|------------------------|
+| Block Storage | Stores data in fixed-size blocks. | Databases, VM disks. | AWS EBS |
+| File Storage | Stores data in folders and files. | Shared network drives. | AWS EFS |
+| Object Storage | Stores data as objects inside buckets. | Images, videos, backups. | AWS S3, MinIO |
+
+## Why Object Storage for Photos
+
+Object Storage is the best choice for storing millions of user-uploaded images because it scales without limits, keeps each photo as an independent object with metadata, and offers high durability at low cost.

@@ -1,0 +1,21 @@
+# Mission Reflection
+
+## 1. Why is object storage better suited for storing millions of photos?
+
+Object storage scales horizontally without limits, stores each photo as an independent object with metadata, and is much cheaper and more durable than block storage at massive scale.
+
+## 2. How did Docker make it easier to deploy MinIO?
+
+Docker packaged MinIO into a single image, so I only needed one command to download and run the server, and I could configure credentials using flags instead of editing config files.
+
+## 3. What is a bucket in cloud storage?
+
+A bucket is a flat, top-level container that stores objects. It cannot be nested and holds settings like permissions and versioning.
+
+## 4. How do enterprises ensure object storage data is not lost?
+
+Enterprises replicate data across multiple servers and regions, use erasure coding, versioning, and lifecycle policies so data can be recovered if hardware fails.
+
+## 5. How is your confidence in the Linux command line growing?
+
+My confidence has grown because each mission builds on the last. Running Docker commands, checking container status, and troubleshooting ports now feels routine instead of intimidating.
