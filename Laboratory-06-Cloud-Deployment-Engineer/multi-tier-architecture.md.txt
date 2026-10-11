@@ -1,0 +1,48 @@
+# Multi-Tier Architecture
+
+## What is a Two-Tier Architecture?
+
+A **two-tier architecture** (also called client-server architecture) is a
+software design pattern where an application is divided into two distinct
+layers that communicate over a network:
+
+1. **Presentation / Web Tier**
+2. **Data / Database Tier**
+
+In this mission, the two tiers are implemented as two separate Docker
+containers running on the same host and linked through a private Docker
+network created automatically by Docker Compose.
+
+## The Web / Application Tier
+
+- **Role:** Serves the user interface, handles HTTP requests, and processes
+  application logic.
+- **In this mission:** The **Nextcloud** container is the web tier.
+- **Responsibilities:**
+  - Receives requests from the browser on port `8080`.
+  - Renders the user interface (file manager, login page, etc.).
+  - Communicates with the database to fetch and store file metadata.
+
+## The Database Tier
+
+- **Role:** Stores persistent data such as user accounts, credentials, and
+  application metadata.
+- **In this mission:** The **MariaDB 10.6** container is the database tier.
+- **Responsibilities:**
+  - Persists all Nextcloud metadata (file names, owners, shares).
+  - Manages user authentication records.
+  - Provides a stable, isolated storage layer.
+
+## Why Separate the Tiers?
+
+Separating the web server and the database into two containers is better
+than packing them both into one because:
+
+1. **Isolation & Security:** If the web tier is compromised, the attacker
+   does not automatically gain access to database files. Each container has
+   its own filesystem and process space.
+2. **Scalability:** The web tier can be scaled horizontally (multiple
+   Nextcloud containers) while keeping a single database, or vice versa.
+3. **Maintainability:** Each tier can be updated, restarted, or backed up
+   independently without affecting the other — which is impossible if they
+   share the same container.
