@@ -1,0 +1,10 @@
+# Security Audit Report
+
+## Principle of Least Privilege (PoLP)
+PoLP is the practice of granting only the minimum permissions needed for a task. For cloud accounts, it means a developer gets write access to one bucket, not the whole project. This matters because compromised credentials can only do limited damage, and it's far easier to audit who can do what.
+
+## Attack Surface
+On a virtual machine, the attack surface is every way an attacker could reach it: open ports, exposed services, enabled protocols, and running daemons. Every service you don't need is a door you don't need to defend. Shrinking the surface is the single most effective hardening step.
+
+## Default Deny Policy
+A default deny policy rejects all traffic unless a rule explicitly permits it. This beats blocking "known bad" attackers because new IPs, new exploits, and new services appear constantly — but the set of services you actually need is small and stable. Anything not on the allow-list is denied automatically.

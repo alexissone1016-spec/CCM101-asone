@@ -1,0 +1,14 @@
+
+### `reflection.md` (≈310 words)
+```markdown
+# Mission Reflection
+
+A host-based firewall defends a server even after the perimeter falls because it evaluates packets at the machine itself. If an attacker reaches the VM through a compromised VPN, a misconfigured cloud security group, or lateral movement from another host, UFW still inspects every connection and drops anything not explicitly allowed. That makes it a genuine layer of defense in depth rather than a duplicate of the perimeter.
+
+Managing open ports is critical because each open port is an exposed service, and every service carries its own vulnerabilities, defaults, and patch debt. Reducing the number of listening ports shrinks the attack surface, simplifies auditing, and removes entire classes of exploit from consideration.
+
+Leaving a database port such as 3306 open to the internet is dangerous because databases were never designed for public exposure. Automated scanners locate them within minutes, and a single weak password, missing patch, or misconfigured grant can lead to full data exfiltration — often without triggering obvious alarms. Databases belong on private subnets, reachable only by application servers that need them.
+
+This mission changed my view of how easily a server can be compromised. Watching a freshly started container immediately respond on port 8080 made the exposure concrete: the moment a service is bound to a public interface, it is discoverable. Conversely, the UFW sequence showed how fragile correctness can be — running `enable` before `allow ssh` turns a good intention into a lockout. Security really is a process of small, ordered, verifiable steps.
+
+My GitHub portfolio now contains eight completed missions, and this one anchors the security chapter. Reading back through the labs, there's a visible progression from provisioning to networking to hardening, which is exactly the narrative an employer or instructor wants to see.

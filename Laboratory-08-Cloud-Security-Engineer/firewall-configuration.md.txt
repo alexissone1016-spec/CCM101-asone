@@ -1,0 +1,5 @@
+# Firewall Configuration
+
+## Allow SSH
+```bash
+sudo ufw allow ssh
