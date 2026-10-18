@@ -1,0 +1,7 @@
+# Container Observability
+
+## Application Logs (Checkpoint 4)
+
+**The 404 Error Log Line:**
+```text
+172.17.0.1 - - [18/Oct/2026:13:06:58 +0000] "GET /hidden-admin-page HTTP/1.1" 404 153 "-" "curl/8.5.0" "-"

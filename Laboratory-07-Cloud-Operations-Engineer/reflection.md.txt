@@ -1,0 +1,24 @@
+
+### 📄 `reflection.md`
+```markdown
+# Mission Reflection
+
+## 1. Why is it important to check the host server's resources even if your containers are running perfectly?
+
+Containers share the host server's kernel and physical resources. Even if a container's internal metrics look normal, the host server might be running out of disk space, swapping memory, or maxing out CPU due to other processes. If the host crashes, all containers go down with it. Checking the host baseline ensures the foundation is stable before a traffic surge.
+
+## 2. If a user complains that they cannot log into a web application, how would the `docker logs` command help you solve the problem?
+
+The `docker logs` command reveals the exact HTTP requests and internal server errors happening behind the scenes. I could look for a `401 Unauthorized` or `500 Internal Server Error` log entry at the exact time the user tried to log in. The log would reveal if the issue was a bad password, a database connection failure, or a crashed backend process, guiding my troubleshooting.
+
+## 3. What is the difference between monitoring logs (Checkpoint 4) and monitoring metrics (Checkpoint 5)?
+
+Logs are discrete, event-driven text records (e.g., "User X tried to access page Y and got a 404 at 10:05 AM"). They tell you *what* happened. Metrics are aggregated, numerical data points captured over time (e.g., "CPU usage is 5%, Memory usage is 5MB"). They tell you *how much* or *how fast*. Logs help you debug specific errors, while metrics help you monitor overall health and resource consumption.
+
+## 4. How do you think large enterprise companies monitor thousands of containers at the same time? (Hint: Refer to Chapter 7 concepts like Prometheus or Grafana).
+
+Large companies cannot look at `docker stats` for thousands of containers manually. They use centralized observability stacks like **Prometheus** to scrape and store numerical metrics from all containers, and **Grafana** to visualize them in real-time dashboards. For logs, they aggregate them into systems like the ELK stack (Elasticsearch, Logstash, Kibana) so they can search millions of log lines instantly and set up automated alerts.
+
+## 5. How has your ability to troubleshoot Linux environments improved?
+
+Before this lab, I would only see an application as working or broken. Now, I can investigate the "why" using `free -h`, `df -h`, `docker logs`, and `docker stats`. I understand that troubleshooting is a process of elimination: checking the host resources first, then the application logs, and finally the live metrics to pinpoint the exact bottleneck or error. This shift from guessing to measuring is what it means to be an SRE.

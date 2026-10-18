@@ -1,0 +1,10 @@
+# System Baseline Report
+
+## Host System Metrics
+
+- **Total RAM available:** [Insert your `free -h` total value here, e.g., 3.8Gi]
+- **Total Storage capacity (/)**: [Insert your `df -h /` size value here, e.g., 19G]
+
+## Why check disk space?
+
+Checking disk space is critical before a massive traffic surge because web servers write logs, cache files, and session data to the disk. If the disk fills up, the web server will crash, refuse new connections, or corrupt application data.
