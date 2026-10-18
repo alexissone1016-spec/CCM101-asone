@@ -1,0 +1,10 @@
+# Automation Research
+
+## Bash Script
+A Bash script is a plain text file containing a sequence of commands that the Linux shell executes in order. The `#!/bin/bash` line at the top is called the "shebang," and it tells the operating system exactly which interpreter (in this case, the Bash shell) to use to run the file.
+
+## Variables
+Variables act as containers that store data (like a folder path or a timestamp) under a specific name. Programmers use them so they don't have to retype the exact same path or value multiple times; if a path changes, you only have to update the variable once instead of hunting through the whole script.
+
+## Cron Job
+A cron job is a scheduled task in Linux that runs automatically at specified intervals. It is essential for cloud operations because it eliminates the need for human intervention, ensuring that critical routines like backups, system updates, and log rotations happen reliably and consistently.
